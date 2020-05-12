@@ -10,9 +10,18 @@
                     hello: function(what) {
                         this.echo('Hello, ' + what +
                                   '. Wellcome to this terminal.');
+                    },
+ 
+                
+                {
+                    listfiles: function(what) {
+                        this.echo('The following files are available to access through this terminal. Engineering/Navigation/Secret Shit.');
                     }
-                }, {
-                    greetings: 'Welcome to the HMS Aspire. What is your name?'
+                },
+                
+                
+                {
+                    greetings: 'Welcome to the HMS Aspire. Press listfiles to show a list of files'
                 });
                 </script>
 </body>
