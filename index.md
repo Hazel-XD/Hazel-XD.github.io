@@ -7,7 +7,7 @@
 <body>
         <script>
                 $('body').terminal({
-                    function(what) {
+                    hello: function(what) {
                         this.echo('Hello, ' + what +
                                   '. Wellcome to this terminal.');
                     }
