@@ -14,13 +14,14 @@ $('body').terminal({
 }, {
     greetings: 'Welcome to the HMS Aspire. Type cat. '
 });
-
+</script>
+<script>
 $('body').terminal({
     cat: function() {
         this.echo($('<img src="https://placekitten.com/408/287">'));
     }
 });
-
 </script>
+
 </body>
 </html>
