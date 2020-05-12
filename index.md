@@ -12,7 +12,7 @@
                                   '. Wellcome to this terminal.');
                     }
                 }, {
-                    greetings: 'My First Terminal'
+                    greetings: 'Welcome to the HMS Aspire. What is your name?'
                 });
                 </script>
 </body>
