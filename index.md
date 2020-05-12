@@ -5,24 +5,22 @@
 <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
 </head>
 <body>
-        <script>
-                $('body').terminal({
-                    hello: function(what) {
-                        this.echo('Hello, ' + what +
-                                  '. Wellcome to this terminal.');
-                    },
- 
-                
-                {
-                    listfiles: function(what) {
-                        this.echo('The following files are available to access through this terminal. Engineering/Navigation/Secret Shit.');
-                    }
-                },
-                
-                
-                {
-                    greetings: 'Welcome to the HMS Aspire. Press listfiles to show a list of files'
-                });
-                </script>
+       <script>
+$('body').terminal({
+    hello: function(what) {
+        this.echo('Hello, ' + what +
+                  '. Wellcome to the HMS Aspire.');
+    }
+}, {
+    greetings: 'Welcome to the HMS Aspire. Type cat. '
+});
+
+$('body').terminal({
+    cat: function() {
+        this.echo($('<img src="https://placekitten.com/408/287">'));
+    }
+});
+
+</script>
 </body>
 </html>
