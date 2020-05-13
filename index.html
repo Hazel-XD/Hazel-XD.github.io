@@ -16,6 +16,13 @@
         }, {
             greetings: 'Welcome to the HMS Aspire'
         });
+
+
+        $('body').terminal({
+    cat: function() {
+        this.echo($('<img src="https://placekitten.com/408/287">'));
+    }
+});
         </script>
         
         
