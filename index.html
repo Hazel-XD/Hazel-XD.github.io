@@ -11,14 +11,10 @@
  
 
 
- $('body').terminal({
-    title: function() {
-        return fetch('https://terminal.jcubic.pl')
-            .then(r => r.text())
-            .then(html => html.match(/<title>([^>]+)<\/title>/)[1]);
-    }
+ $('body').terminal(cat: function() {
+    this.echo($('<img src="https://placekitten.com/408/287">'));
 }, {
-    greetings: 'My First Terminal\n'
+    greetings: 'Welcome to the HMS Aspire'
 });
        
 
