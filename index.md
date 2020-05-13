@@ -14,11 +14,11 @@
       </div>
     </div>
     
-    <!--<script src="http://www.codehelper.io/api/ips/?js"></script>-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    
+ <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://s.codepen.io/AndrewBarfield/pen/LEbPJx.js"></script>
     
-    <div class="clock-container">
+<div class="clock-container">
       <svg viewBox="0 0 100 100">
         <circle cx="50" cy="50" r="45"/>
         <g>
