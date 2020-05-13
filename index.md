@@ -1,33 +1,24 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <title>HTML5 Web Terminal</title>
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata"
-          rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id="container">
-      <output></output>
-      <div id="input-line" class="input-line">
-        <div class="prompt"></div><div><input class="cmdline" autofocus /></div>
-      </div>
-    </div>
-    
-    
- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://s.codepen.io/AndrewBarfield/pen/LEbPJx.js"></script>
-    
-<div class="clock-container">
-      <svg viewBox="0 0 100 100">
-        <circle cx="50" cy="50" r="45"/>
-        <g>
-          <rect class="hour" x="47.5" y="12.5" width="5" height="40" rx="2.5" ry="2.55" />
-          <rect class="min" x="48.5" y="12.5" width="3" height="40" rx="2" ry="2"/>
-          <line class="sec" x1="50" y1="50" x2="50" y2="16" />
-        </g>
-      </svg>
-    </div>
-    
-  </body>
+<head>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://unpkg.com/jquery.terminal@2.x.x/js/jquery.terminal.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/jquery.terminal@2.x.x/css/jquery.terminal.min.css"/>
+</head>
+<body>
+
+<script>
+$('body').terminal({
+    hello: function(what) {
+        this.echo('Hello, ' + what +
+                  '. Wellcome to this terminal.');
+    }
+}, {
+    greetings: 'My First Terminal'
+});
+</script>
+
+
+
+</body>
 </html>
