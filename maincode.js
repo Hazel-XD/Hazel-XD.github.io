@@ -20,7 +20,7 @@ async function main() {
 
 //Now we can set up the size of the terminal, along with its colour and stuff
     t.setBackgroundColor("blue");
-    t.setHeight("800px");
+    //t.setHeight("800px");
 
 
 //We then insert the terminals html into the actual page
@@ -48,14 +48,14 @@ async function main() {
     while (running) {
 
     let command = await t.waitInput("Enter Command: ");
-    commandEntered(command)
+    await commandEntered(command)
 
     }
 
 
 }
 
-function commandEntered(userInput) {
+async function commandEntered(userInput) {
     //This is a "switch statement", they are basically just faster if-else chains
     switch (userInput) {
         case "ls":
@@ -74,4 +74,4 @@ function commandEntered(userInput) {
             running = false;
             break;
     }
-}
+};
