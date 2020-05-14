@@ -62,13 +62,13 @@ function commandEntered(userInput) {
             t.print("Here are all the files!");
             t.print(files);
             break; //Always have a break at the end otherwise it will check all the other values in the case statment as well
+        case "emails":
+            let password = await t.waitInput("What's the password");
+            t.print(`You entered ${password}!`);
+            break;
         case "quit":
             t.print("Bye Babez");
             running = false;
-            break;
-        case "emails":
-            let password = await t.waitInput("Whats your name?");
-            t.print(`Hey there ${password}, hows it goin!`);
             break;
     }
 }
