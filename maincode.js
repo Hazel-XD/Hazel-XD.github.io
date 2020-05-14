@@ -64,7 +64,10 @@ function commandEntered(userInput) {
             break; //Always have a break at the end otherwise it will check all the other values in the case statment as well
         case "emails":
             let password = await t.waitInput("What's the password");
-            t.print(`You entered ${password}!`);
+            if (password === "blah") {
+                t.print("texty text")}
+            else
+                {t.print(`${password} is wrong!`)};
             break;
         case "quit":
             t.print("Bye Babez");
