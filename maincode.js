@@ -69,5 +69,6 @@ function commandEntered(userInput) {
         case "emails":
             let name = await t.waitInput("Whats your name?");
             t.print(`Hey there ${name}, hows it goin!`);
+            break;
     }
 }
