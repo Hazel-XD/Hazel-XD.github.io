@@ -20,7 +20,7 @@ async function main() {
 
 //Now we can set up the size of the terminal, along with its colour and stuff
     t.setBackgroundColor("blue");
-    t.setHeight("800px");
+    //t.setHeight("800px");
 
 
 //We then insert the terminals html into the actual page
