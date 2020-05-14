@@ -1,4 +1,4 @@
-let files = ["Sub Crew", "Sub Salaries", "Sub Toppings", "Sub Bread Types", "Sub Masters", "Sub Marines"];
+let files = ["Crew Roster", "Navigation Guide", "Engineering Guide", "Emergency Protocol", "emailcorrespondence", "A"];
 let t; //Putting "t" out here makes it a global variable so its accessible everywhere
 
 //Ignore this, I made it to make it easier for you to make inputs tha actually wait for the user to respond
@@ -30,16 +30,16 @@ async function main() {
 //Look here for more info: http://www.erikosterberg.com/terminaljs/
 
 
-    t.print("Welcome to, like, a submarine, woOOoOOooOoo, we're underwater, how exciting!");
+    t.print("Welcome to the HMS Aspire. ");
 
     //In order to stop the program until the user responds, use await t.waitInput rather than t.input
     //If you dont use await, the program may crash :)
     let name = await t.waitInput("Whats your name?");
-    t.print(`Hey there ${name}, hows it goin!`);
+    t.print(`Welcome ${name}.`);
 
 
 
-    t.print("Now then, would you like to give me a command UwU?");
+    t.print("Please type ls to see a list of available files or press help for more information ");
 
 
 //By putting things in an "endless" loop, we can ensure things eventually go back to the "command" line if something
@@ -62,7 +62,7 @@ function commandEntered(userInput) {
             t.print("Here are all the files!");
             t.print(files);
             break; //Always have a break at the end otherwise it will check all the other values in the case statment as well
-        case "emails":
+        case "emailcorrespondence":
             let password = await t.waitInput("What's the password");
             if (password === "blah") {
                 t.print("texty text")}
@@ -70,7 +70,7 @@ function commandEntered(userInput) {
                 {t.print(`${password} is wrong!`)};
             break;
         case "quit":
-            t.print("Bye Babez");
+            t.print("Quit. Please reload terminal to continue");
             running = false;
             break;
     }
