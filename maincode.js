@@ -48,14 +48,14 @@ async function main() {
     while (running) {
 
     let command = await t.waitInput("Enter Command: ");
-    commandEntered(command)
+    await commandEntered(command)
 
     }
 
 
 }
 
-function commandEntered(userInput) {
+async function commandEntered(userInput) {
     //This is a "switch statement", they are basically just faster if-else chains
     switch (userInput) {
         case "ls":
@@ -74,4 +74,4 @@ function commandEntered(userInput) {
             running = false;
             break;
     }
-}
+};
