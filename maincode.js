@@ -67,8 +67,8 @@ function commandEntered(userInput) {
             running = false;
             break;
         case "emails":
-            let name = await t.waitInput("Whats your name?");
-            t.print(`Hey there ${name}, hows it goin!`);
+            let password = await t.waitInput("Whats your name?");
+            t.print(`Hey there ${password}, hows it goin!`);
             break;
     }
 }
