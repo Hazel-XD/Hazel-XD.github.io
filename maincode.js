@@ -1,4 +1,4 @@
-let files = ["Crew Roster", "Navigation Guide", "Engineering Guide", "Emergency Protocol", "emailcorrespondence", "A"];
+let files = ["crewroster", "navigation", "nel13", "missionobjective", "emailcorrespondence", "A"];
 let t; //Putting "t" out here makes it a global variable so its accessible everywhere
 
 //Ignore this, I made it to make it easier for you to make inputs tha actually wait for the user to respond
@@ -89,7 +89,9 @@ async function commandEntered(userInput) {
         t.print("Radio Communication"),
         t.print("While surfaced, the HMS Aspire can of course engage in traditional radio communication, however an antenna attached to a buoy which is released as the vessel dives allows this audio communication to persist to a depth of 50 metres."),
         t.print("Up to a depth of 200 metres, the underwater buoy can be kept at a shallow enough depth to allow the reception of Very Low Frequency (VLF) transmissions. This form of communication relies on text, and cannot carry audio information."),
-        t.print("Below 200 metres, there is no method of communication with the surface available, and the Aspire should surface in the case of an emergency requiring communication with surface vessels."),
+        t.print("Below 200 metres, there is no method of communication with the surface available, and the Aspire should surface in the case of an emergency requiring communication with surface vessels.");
+        break;
+        case "nel13":
         t.print("NEL-13 Operations Guide"),
         t.print("The HMS Aspire carries onboard a Nautical Evaluation Liason Device class 13 (NEL-13). This is a submersible drone which can be deployed to investigate the environment outside the submarine, take samples and carry out basic mechanical tasks such as external hull repairs."),
         t.print("NEL-13 can be deployed and controlled using the Navigation Room Control Panel in a similar way to piloting the submarine itself. For example:"),
@@ -99,6 +101,28 @@ async function commandEntered(userInput) {
         t.print("QUERY What type of fish can NEL-13 see? MARINE BIOLOGY"),
         t.print("In general, when interaction with the environment outside the submarine is required, using NEL-13 is the safest and most efficient way to carry out almost all routine tasks.");
         break;
+        case "crewroster":
+        t.print("The following personnel have been checked into the HMS Aspire."),
+        t.print("..."),
+        t.print("Gregory Carter - Submarine Commander"), 
+        t.print("David Lightman - Computer Analyst"),
+        t.print("Sky Evans - Mechanical Engineer"),
+        t.print("Alexa Fitton - Scientific Diver"),
+        t.print("Liz  Hoydal - Deep Sea Forensic Specialist"),
+        t.print("Sasha Harris - Scientific Specialist"),
+        t.print("Cliff Weatherton - Rescue Diver"),
+        t.print("James Daniels - Rescue Specialist"),
+        t.print("Matthias Hoffman - Liason");
+        break;
+        case "engineering":
+        t.print("engineeringthings");
+        break;
+        case"missionobjective":
+        t.print("Seven days ago, a nearby ship received a distress signal from the HMS Scylla at 57°13'33.7'N 33°25'42.8'W. It is unclear as to their current state but estimates suggest that they only have sufficient oxygen canisters to last them another 12 hours."), 
+        t.print("..."),
+        t.print("You were contacted by Captain Alison Starkey of the Royal Navy. Due to your expertise,  it  is believed that you possess the proficiency to rescue crew and equipment that has become stranded at this location."),
+        t.print("..."),
+        t.print("Your goal is to rescue the crew of the HMS Scylla and transport them to safety. ");
         case "quit":
             t.print("Quit. Please reload terminal to continue");
             running = false;
