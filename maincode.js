@@ -69,6 +69,36 @@ async function commandEntered(userInput) {
             else
                 {t.print(`${password} is wrong!`)};
             break;
+        case "navigation":
+        t.print("Navigation and NEL-13 Operations Guide for the HMS Aspire"),
+        t.print("Navigation Operations");
+        t.print("All navigation commands can be inputted from the Main Control Panel located within the Navigation Room."),
+        t.print("Submarine navigation underwater requires skills and technologies not needed by surface ships. The challenges of underwater navigation have become more important as submarines spend more time underwater, travelling greater distances and at higher speed. Military submarines, such as HMS Aspire, travel underwater in an environment of total darkness with neither windows nor lights."), 
+        t.print("The Aspire can use its active sonar systems to ping ahead for underwater hazards such as undersea mountains, drilling rigs or other submarines."),
+        t.print("At depths below periscope depth the submarine can determine its position using:"),
+        t.print("Dead reckoning course information obtained from the ship's gyrocompass, measured speed and estimates of local ocean currents, this could also be considered an estimated position as long as the ocean current is computed in."),
+        t.print("Inertial navigation system is an estimated position source, utilizing acceleration, deceleration, and pitch and roll for computing."),
+        t.print("Bottom contour navigation may be used in areas where detailed hydrographic data has been charted and there is adequate variation in sea floor topography. Fathometer depth measurements are compared to charted depth patterns."),
+        t.print("Queries may be inputted at the Navigation Room Control Panel to extract this stream of navigation information. For example:"), 
+        t.print("QUERY Current position NAVIGATION"),
+        t.print("QUERY Are there any obstacles in our current trajectory? PILOT"),
+        t.print("Commands may also be inputted to change the submarine course through changes to pitch angle controlled by diving planes, or to steer left or right controlled by the rudder. For example:)"),
+        t.print("COMMAND Plot a course to Muirfield Seamount NAVIGATION ROOM NAVIGATION"),
+        t.print("COMMAND Descend 500 metres NAVIGATION ROOM PILOT"),
+        t.print("COMMAND Turn 180 degrees NAVIGATION ROOM HELMSMAN"),
+        t.print("Radio Communication"),
+        t.print("While surfaced, the HMS Aspire can of course engage in traditional radio communication, however an antenna attached to a buoy which is released as the vessel dives allows this audio communication to persist to a depth of 50 metres."),
+        t.print("Up to a depth of 200 metres, the underwater buoy can be kept at a shallow enough depth to allow the reception of Very Low Frequency (VLF) transmissions. This form of communication relies on text, and cannot carry audio information."),
+        t.print("Below 200 metres, there is no method of communication with the surface available, and the Aspire should surface in the case of an emergency requiring communication with surface vessels."),
+        t.print("NEL-13 Operations Guide"),
+        t.print("The HMS Aspire carries onboard a Nautical Evaluation Liason Device class 13 (NEL-13). This is a submersible drone which can be deployed to investigate the environment outside the submarine, take samples and carry out basic mechanical tasks such as external hull repairs."),
+        t.print("NEL-13 can be deployed and controlled using the Navigation Room Control Panel in a similar way to piloting the submarine itself. For example:"),
+        t.print("COMMAND Move NEL-13 towards underwater vent NAVIGATION ROOM ROBOTICS"),
+        t.print("COMMAND Replace Aspire’s communications antenna using NEL-13 NAVIGATION ROOM PILOT"),
+        t.print("QUERY What data can NEL-13 gather about the immediate surroundings? OCEANOGRAPHY"),
+        t.print("QUERY What type of fish can NEL-13 see? MARINE BIOLOGY"),
+        t.print("In general, when interaction with the environment outside the submarine is required, using NEL-13 is the safest and most efficient way to carry out almost all routine tasks.");
+        break;
         case "quit":
             t.print("Quit. Please reload terminal to continue");
             running = false;
