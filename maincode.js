@@ -255,7 +255,37 @@ async function commandEntered(userInput) {
         t.print("Matthias Hoffman - Liason");
         break;
         case "engineering":
-        t.print("engineeringthings");
+        t.print("Engineering and Maintenance Guides Aboard the HMS Aspire"),
+        t.print("..."),
+        t.print("Engineering Operations
+        t.print("All engineering commands can be inputted from the Main Control Panel located within the Engineering Room."),
+        t.print("..."),
+        t.print("Engineers are required on a submarine to ensure that all systems aboard the vessel are operating as normal. Maintenance Engineers are expected to make repairs to systems as they come up. "),
+        t.print("..."),
+        t.print("In order for a submarine to submerge hydrostatically, it must have negative buoyancy. To control their displacement and the depth at which the submarine submerges, it has ballast tanks which have a combination of air and water. More water in the ballast tanks, the deeper it is able to go. The Main Ballast Tanks (MBTs) are completely filled in order to submerge whereas the Depth Control Ballast Tanks (DCBTs) control how deep a submarine is within the water. "),
+        t.print("..."),
+        t.print("A titanium  sub such a s the HMS Aspire is designed to withhold pressures up to 1,500 psi. "),
+        t.print("..."),
+        t.print("In addition to standard operation, the HMS Aspire has the following instruments"),
+        t.print("Nuclear Propulsion Systems"),
+        t.print("A magnetic anomaly detector. "),
+        t.print("Combination fo Active and Passive SONARs"),
+        t.print("24 Oxygen Cannisters to support life systems. "),
+        t.print("Emergency Rescue Equipment including first aid equipment, 5 spare oxygen canisters."),
+        t.print("..."),
+        t.print("Amongst others. "),
+        t.print("..."),
+        t.print("What happens in the engineering room of submarine"),
+        t.print("..."),
+        t.print("Within the Engineering Room of the submarine, there are instruments to both control different aspects of the submarine and display readouts about what is going on within the deeper ocean."),
+        t.print("..."),
+        t.print("Queries may be inputted at the Engineering Room Control Panel to extract this stream of navigation information. For example:"),
+        t.print("..."),
+        t.print("QUERY Pressure Level ENGINEERING"),
+        t.print("..."),
+        t.print("Commands may also be inputted to control and make repairs to the various submarine systems. "),
+        t.print("..."),
+        t.print("COMMAND Replace Oxygen Cannister");
         break;
         case"missionobjective":
         t.print("Seven days ago, a nearby ship received a distress signal from the HMS Scylla at 57°13'33.7'N 33°25'42.8'W. It is unclear as to their current state but estimates suggest that they only have sufficient oxygen canisters to last them another 12 hours."), 
@@ -292,7 +322,7 @@ async function commandEntered(userInput) {
         t.print("In a worst case scenario, the crew should gather together in one room and focus on only supplying that location with oxygen. Any fires should be extinguished as quickly as possible to save air, and any power supplies should be focused on pumping seawater away from this location.");
         break;
         case "topsecret":
-        t.print("asldjf3oj2o;34jto4hi43htqit43qijth4;iq34uhq;akjshdfjawe;ht4qtuq4tuha;sdncqo4uhta;w4ohta;wo4thao;sdhgfa;4329438adouhfa;w4uht2948tya;suohfas");
+        t.print("this file is encrypted. asldjf3oj2o;34jto4hi43htqit43qijth4;iq34uhq;akjshdfjawe;ht4qtuq4tuha;sdncqo4uhta;w4ohta;wo4thao;sdhgfa;4329438adouhfa;w4uht2948tya;suohfas");
         break;
         case "geological":
         t.print("Report on North Atlantic Ocean anomaly site: 57°13'33.7'N 33°25'42.8'W')"),
@@ -313,6 +343,94 @@ async function commandEntered(userInput) {
         t.print("We can supply no reason for this, and will investigate further. Until conclusion can be drawn, we recommend reducing the amount of mining activity in the area."),
         t.print("..."),
         t.print("Whilst this report raises some valid concerns, no imminent danger is flagged and so mining is cleared to continue at the current level, with increased production once new sites have been mapped and proper equipment installed -- Matthias Hoffman");
+        break;
+        case "anishamistry":
+        let password2 = await t.waitInput("Welcome Anisha Mistry! What's your designation?");
+        if (password2 === "94648") {
+        t.print("Thank you for logging in. Please find attached your staff files"),
+        t.print("Transcript of return to work interview 00392"),
+        t.print("12/02/2012 - 10:15am"),
+        t.print("..."),
+        t.print("Interviwer - Morgan Grayson (MG)"),
+        t.print("Interviewee - Anisha Mistry (AM)"),
+        t.print("..."),
+        t.print(" MG: Hello Anisha, take a seat. Just before we get started, this interview is being recorded, is that okay?"),
+        t.print("..."),
+        t.print("AM: Yes, that’s fine."),
+        t.print("..."),
+        t.print("MG: Great, well I have to say it’s wonderful to have you back with us. Everyone is looking forward to having you back on the team - they’ve really missed you."),
+        t.print("..."),
+        t.print("AM: Thanks."),
+        t.print("..."),
+        t.print("MG: So, this is a return to work interview - as the email stated it’s really an informal chat, but it’s important for us to do this so that we can continue to monitor absences and take any issues seriously. Importantly, this is not part of any sort of disciplinary procedure, this is an opportunity for us to work out how we can support you. Does that make sense?"),
+        t.print("..."),
+        t.print("AM: It does."),
+        t.print("..."),
+        t.print("MG: Well then, let’s get started with how you’re feeling now. Have you seen your GP recently?"),
+        t.print("..."),
+        t.print("AM: Mostly better, my doctor cleared me for returning to work on Thursday. My next few dives should be more gentle than usual, though, and I need to monitor for any recurrence of symptoms."),
+        t.print("..."),
+        t.print("MG: That’s good to hear, Anisha. Do you mind running me through the incident in your own words? We don’t actually have your own report of it on record yet for obvious reasons."),
+        t.print("..."),
+        t.print("AM: Sure. It was a pretty routine dive investigating the wildlife that had been interfering with some mining equipment at one of the shallow sites. Basically just getting eyes on the equipment to check for damage. To be fair, it was tougher than we expected - fish and weeds everywhere, it made visibility a real struggle, especially since it was just me and Chambers. He wanted to push on but the flora was really getting in our way, getting tangled round us. Not great. Chambers got his leg stuck and had to cut himself loose. I was holding the torch since his hands were pretty full, and this…. this..."),
+        t.print("..."),
+        t.print("MG: It’s okay, Anisha. Take your time."),
+        t.print("..."),
+        t.print("AM: I kid you not, this massive tentacle thing, all shiny, just appears from nowhere and it’s grabbing for me. Chambers gets free and obviously hasn’t seen it, but I can’t move the torch. Can’t move anything. Dropped my weights and pegged it. No way I was gonna let that thing catch me."),
+        t.print("..."),
+        t.print("MG: Tentacle. A squid?"),
+        t.print("..."),
+        t.print("AM: I know what a squid looks like. Sorry, didn’t mean to sound sarcastic… It was huge, you don’t understand, like… like a tree trunk coming for you. Even if it didn’t mean to, it could’ve knocked me out; sent me flying out into open ocean. Didn’t really fancy my chances there."),
+        t.print("..."),
+        t.print("MG: So you left Chambers."),
+        t.print("..."),
+        t.print("AM: Suppose I did…"),
+        t.print("..."),
+        t.print("MG: He never mentioned a creature in his report."),
+        t.print("..."),
+        t.print("AM: He didn’t have any light, he couldn’t see a fucking thing. Sorry."),
+        t.print("..."),
+        t.print("MG: So, you surfaced."),
+        t.print("..."),
+        t.print("AM: I did, and I knew I’d messed up. It was a few hours before symptoms started but we were all on alert for them. Got me to hospital within 50 minutes of the pain starting."),
+        t.print("..."),
+        t.print("MG: And into a hyperbaric recompression chamber?"),
+        t.print("..."),
+        t.print("AM: Exactly. They told me to take two months away from diving, I sent the letter across. Now my GP agrees I’m good to return."),
+        t.print("..."),
+        t.print("MG: Okay, well… you’ve mentioned some things here we weren’t aware of. We can’t have you spooked by strange shapes, you know. There’s a lot of shadows in a dive that deep and-"),
+        t.print("..."),
+        t.print("AM: I know what I saw."),
+        t.print("..."),
+        t.print("MG: We’ll keep you to shallow dives until your manager agrees you’ve emotionally recovered. We’ll schedule some therapy, too… We’re nearly done, don’t worry. Is there any additional support you require following this incident?"),
+        t.print("..."),
+        t.print("AM: Other than what we’ve already talked about? No."),
+        t.print("..."),
+        t.print("MG: This has been your fourth case of absence in the last 12 months, do you agree with that record?"),
+        t.print("..."),
+        t.print("AM: I believe so."),
+        t.print("..."),
+        t.print("MG: And was this absence disability-related?"),
+        t.print("..."),
+        t.print("AM: No."),
+        t.print("..."),
+        t.print("MG: Okay, well you are beginning to rack up a significant number of absences for this period, I’m going to give you the relevant absence management literature and schedule another interview next month with a colleague--"),
+        t.print("..."),
+        t.print("AM: I thought you said this wasn’t a disciplinary."),
+        t.print("..."),
+        t.print("MG: Work with us, please, Anisha. We want to help you… I’m scheduling another meeting next month on the 5th with a panel of HR. Do you have any questions regarding any of this?"),
+        t.print("..."),
+        t.print("AM: No."),
+        t.print("..."),
+        t.print("MG: Great, well that should be everything for now. Thank you for coming along today. We’ll see you next month."),
+        t.print("..."),
+        t.print("End transcription.")}
+        else
+        {t.print(`${password2} is wrong!`)};
+        break;
+        case "help":
+        t.print("THank you for using the Information Termainal. Enter your file name as a command to access it. If it requires a password, ensure it is written in lower case."),
+        t.print("If you need to access personal information, enter your name as a command e.g. joebloggs and your crew designation as a password");
         break;
         case "quit":
             t.print("Quit. Please reload terminal to continue");
