@@ -184,13 +184,13 @@ async function commandEntered(userInput) {
             t.print("From: samanthavarden@lampreytech.co.uk"),
             t.print("Cc:"),
             t.print("Subject: Evac Suit Preorder"),
-            t.print("..."),
+            
             t.print("Hi Yasmin,"),
-            t.print("..."),
+            
             t.print("Just wanted to chase up the submarine evacuation suit preorder we placed with your company in October. We haven’t had any correspondence since the new year and were led to believe that the suits would be ready for dispatch by the end of January. We have held off buying any replacements from other sources because of this, and need to know when to expect the suits to arrive so that our vessels can remain properly equipped. Should the delay continue we will be forced to source some from another company and cancel this order."),
-            t.print("..."),
+            
             t.print("Kind regards,"),
-            t.print("..."),
+            
             t.print("Samantha Varden"),
             t.print("Outreach Manager at Lamprey Technologies"),
             t.print("(she/her)"),
@@ -227,7 +227,8 @@ async function commandEntered(userInput) {
             t.print("Outreach Manager at Lamprey Technologies"),
             t.print("(she/her)"),
             t.print("samanthavarden@lampreytech.co.uk"),
-            t.print("+44 758385294")}
+            t.print("+44 758385294"),
+            t.print("Please use command emails for further information")}
         else
         {t.print(`${passwords} is wrong!`)};
         break;
@@ -353,84 +354,86 @@ async function commandEntered(userInput) {
         t.print("..."),
         t.print("Interviwer - Morgan Grayson (MG)"),
         t.print("Interviewee - Anisha Mistry (AM)"),
-        t.print("..."),
+        
         t.print(" MG: Hello Anisha, take a seat. Just before we get started, this interview is being recorded, is that okay?"),
-        t.print("..."),
+        
         t.print("AM: Yes, that’s fine."),
-        t.print("..."),
         t.print("MG: Great, well I have to say it’s wonderful to have you back with us. Everyone is looking forward to having you back on the team - they’ve really missed you."),
-        t.print("..."),
+        
         t.print("AM: Thanks."),
-        t.print("..."),
+       
         t.print("MG: So, this is a return to work interview - as the email stated it’s really an informal chat, but it’s important for us to do this so that we can continue to monitor absences and take any issues seriously. Importantly, this is not part of any sort of disciplinary procedure, this is an opportunity for us to work out how we can support you. Does that make sense?"),
-        t.print("..."),
+        
         t.print("AM: It does."),
-        t.print("..."),
+        
         t.print("MG: Well then, let’s get started with how you’re feeling now. Have you seen your GP recently?"),
-        t.print("..."),
+        
         t.print("AM: Mostly better, my doctor cleared me for returning to work on Thursday. My next few dives should be more gentle than usual, though, and I need to monitor for any recurrence of symptoms."),
-        t.print("..."),
+      
         t.print("MG: That’s good to hear, Anisha. Do you mind running me through the incident in your own words? We don’t actually have your own report of it on record yet for obvious reasons."),
-        t.print("..."),
+        
         t.print("AM: Sure. It was a pretty routine dive investigating the wildlife that had been interfering with some mining equipment at one of the shallow sites. Basically just getting eyes on the equipment to check for damage. To be fair, it was tougher than we expected - fish and weeds everywhere, it made visibility a real struggle, especially since it was just me and Chambers. He wanted to push on but the flora was really getting in our way, getting tangled round us. Not great. Chambers got his leg stuck and had to cut himself loose. I was holding the torch since his hands were pretty full, and this…. this..."),
-        t.print("..."),
+        
         t.print("MG: It’s okay, Anisha. Take your time."),
-        t.print("..."),
+        
         t.print("AM: I kid you not, this massive tentacle thing, all shiny, just appears from nowhere and it’s grabbing for me. Chambers gets free and obviously hasn’t seen it, but I can’t move the torch. Can’t move anything. Dropped my weights and pegged it. No way I was gonna let that thing catch me."),
-        t.print("..."),
+        
         t.print("MG: Tentacle. A squid?"),
-        t.print("..."),
+        
         t.print("AM: I know what a squid looks like. Sorry, didn’t mean to sound sarcastic… It was huge, you don’t understand, like… like a tree trunk coming for you. Even if it didn’t mean to, it could’ve knocked me out; sent me flying out into open ocean. Didn’t really fancy my chances there."),
-        t.print("..."),
+        
         t.print("MG: So you left Chambers."),
-        t.print("..."),
+        
         t.print("AM: Suppose I did…"),
-        t.print("..."),
+        
         t.print("MG: He never mentioned a creature in his report."),
-        t.print("..."),
+        
         t.print("AM: He didn’t have any light, he couldn’t see a fucking thing. Sorry."),
-        t.print("..."),
+        
         t.print("MG: So, you surfaced."),
-        t.print("..."),
+        
         t.print("AM: I did, and I knew I’d messed up. It was a few hours before symptoms started but we were all on alert for them. Got me to hospital within 50 minutes of the pain starting."),
-        t.print("..."),
+        
         t.print("MG: And into a hyperbaric recompression chamber?"),
-        t.print("..."),
+        
         t.print("AM: Exactly. They told me to take two months away from diving, I sent the letter across. Now my GP agrees I’m good to return."),
-        t.print("..."),
+        
         t.print("MG: Okay, well… you’ve mentioned some things here we weren’t aware of. We can’t have you spooked by strange shapes, you know. There’s a lot of shadows in a dive that deep and-"),
-        t.print("..."),
+       
         t.print("AM: I know what I saw."),
-        t.print("..."),
+        
         t.print("MG: We’ll keep you to shallow dives until your manager agrees you’ve emotionally recovered. We’ll schedule some therapy, too… We’re nearly done, don’t worry. Is there any additional support you require following this incident?"),
-        t.print("..."),
+        
         t.print("AM: Other than what we’ve already talked about? No."),
-        t.print("..."),
+        
         t.print("MG: This has been your fourth case of absence in the last 12 months, do you agree with that record?"),
-        t.print("..."),
+       
         t.print("AM: I believe so."),
-        t.print("..."),
+       
         t.print("MG: And was this absence disability-related?"),
-        t.print("..."),
+        
         t.print("AM: No."),
-        t.print("..."),
+        
         t.print("MG: Okay, well you are beginning to rack up a significant number of absences for this period, I’m going to give you the relevant absence management literature and schedule another interview next month with a colleague--"),
-        t.print("..."),
+        
         t.print("AM: I thought you said this wasn’t a disciplinary."),
-        t.print("..."),
+       
         t.print("MG: Work with us, please, Anisha. We want to help you… I’m scheduling another meeting next month on the 5th with a panel of HR. Do you have any questions regarding any of this?"),
-        t.print("..."),
+        
         t.print("AM: No."),
-        t.print("..."),
+        
         t.print("MG: Great, well that should be everything for now. Thank you for coming along today. We’ll see you next month."),
-        t.print("..."),
+        
         t.print("End transcription.")}
         else
         {t.print(`${password2} is wrong!`)};
         break;
         case "help":
-        t.print("THank you for using the Information Termainal. Enter your file name as a command to access it. If it requires a password, ensure it is written in lower case."),
+        t.print("Thank you for using the Information Termainal. Enter your file name as a command to access it. If it requires a password, ensure it is written in lower case."),
         t.print("If you need to access personal information, enter your name as a command e.g. joebloggs and your crew designation as a password");
+        break;
+        case "emails":
+        t.print("fileencrypted a;sdlkfjao;djshwp9uohfaposujnf iaruhfapoufhasfjasdijfha");
         break;
         case "quit":
             t.print("Quit. Please reload terminal to continue");
