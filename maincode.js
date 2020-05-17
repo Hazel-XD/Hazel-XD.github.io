@@ -178,8 +178,8 @@ async function commandEntered(userInput) {
         t.print("Below 200 metres, there is no method of communication with the surface available, and the Aspire should surface in the case of an emergency requiring communication with surface vessels.");
         break;
         case "lamprey":
-        let password = await t.waitInput("What's the password");
-        if (password === "brianson") {
+        let passwords = await t.waitInput("What's the password");
+        if (passwords === "brianson") {
             t.print("To: yasminpatel@deepestbv.co.uk"),
             t.print("From: samanthavarden@lampreytech.co.uk"),
             t.print("Cc:"),
@@ -229,7 +229,7 @@ async function commandEntered(userInput) {
             t.print("samanthavarden@lampreytech.co.uk"),
             t.print("+44 758385294")}
         else
-        {t.print(`${password} is wrong!`)};
+        {t.print(`${passwords} is wrong!`)};
         break;
         case "nel13":
         t.print("NEL-13 Operations Guide"),
