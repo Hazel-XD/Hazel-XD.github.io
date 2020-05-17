@@ -257,7 +257,7 @@ async function commandEntered(userInput) {
         case "engineering":
         t.print("Engineering and Maintenance Guides Aboard the HMS Aspire"),
         t.print("..."),
-        t.print("Engineering Operations
+        t.print("Engineering Operations"),
         t.print("All engineering commands can be inputted from the Main Control Panel located within the Engineering Room."),
         t.print("..."),
         t.print("Engineers are required on a submarine to ensure that all systems aboard the vessel are operating as normal. Maintenance Engineers are expected to make repairs to systems as they come up. "),
