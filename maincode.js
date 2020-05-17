@@ -295,6 +295,7 @@ async function commandEntered(userInput) {
         t.print("..."),
         t.print("Your goal is to rescue the crew of the HMS Scylla and transport them to safety. "),
         t.print("The crew you can find aboard are: John Simpkin, Catherine Aronson, Mohammed Amari, Christopher Harris and Divya Sampson");
+        break;
         case "treadwell":
         t.print("New Partnership Seeks to Shake Up the World of Deep Sea Mining and Exploration"),
         t.print("Ellis T Coran"),
