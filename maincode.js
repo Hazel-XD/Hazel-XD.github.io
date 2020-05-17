@@ -30,12 +30,13 @@ async function main() {
 //Look here for more info: http://www.erikosterberg.com/terminaljs/
 
 
-    t.print("Welcome to the HMS Aspire. ");
+    t.print("Welcome to the HMS Aspire. ")
+    t.print("Entries into this system are logged and monitored for auditing purposes");
 
     //In order to stop the program until the user responds, use await t.waitInput rather than t.input
     //If you dont use await, the program may crash :)
-    let name = await t.waitInput("Whats your name?");
-    t.print(`Welcome ${name}.`);
+    let name = await t.waitInput("Please enter your full name. ");
+    t.print(`Welcome to the ship ${name}. The HMS Aspire is a Trafalgar Class Submarine serial number 324854993.`);
 
 
 
@@ -64,8 +65,93 @@ async function commandEntered(userInput) {
             break; //Always have a break at the end otherwise it will check all the other values in the case statment as well
         case "emailcorrespondence":
             let password = await t.waitInput("What's the password");
-            if (password === "blah") {
-                t.print("texty text")}
+            if (password === "843carter962") {
+                t.print("To: d.meyer@royalnavymail.mod.uk"),
+                t.print("From: samanthavarden@lampreytech.co.uk"),
+                t.print("Cc:"),
+                t.print("Subject: PITCH: Lamprey Technologies Seeking Contract Partner to Investigate Marine Phenomenon"),
+                t.print("..."),
+                t.print("Commodore Meyer,"),
+                t.print("..."),
+                t.print("Please find below the press release for an exciting opportunity to join Lamprey Technologies in a unique and exclusive contact. This is not yet public knowledge, and we wanted to offer the Royal Navy the chance to buy the rights to this cutting edge area of exploration before allowing news of its discovery to become widely available."),
+                t.print("..."),
+                t.print("FOR RELEASE 1/11/2011"),
+                t.print("PRESS RELEASE"),
+                t.print("..."),
+                t.print("..."),
+                t.print("Lamprey Technologies Seeking Contract Partner to Investigate Marine Phenomenon"),
+                t.print("..."),
+                t.print("Cutting edge undersea exploration and mining initiative Lamprey Technologies are offering an exclusive contract relating to hitherto unseen discovery recently made in the North Atlantic Ocean."),
+                t.print("..."),
+                t.print("Scientists within the company claim that samples extracted from the bedrock around a tectonic faultline have been found to contain veins of a metal never before seen by humanity."),
+                t.print("..."),
+                t.print("This metal appears to posess unique properties including incredible strength and properties which disrupt nearby sound and electromagnetic waves of particular frequencies."),
+                t.print("..."),
+                t.print("With research, such a metal has unimaginable potential in any number of industries."),
+                t.print("..."),
+                t.print("Lamprey Technologies are offering an exclusive contract with one partner company or organisation."),
+                t.print(" ..."),
+                t.print("“This is a unique opportunity to take ownership of a material no competitor can copy or gain for themselves,” says Grace Chaudry, CEO of Lamprey Technologies. “ We are excited to learn more about our new discovery alongside the contract holder, and to move forward together in a joint venture unlike any we have attempted before.”"),
+                t.print("..."),
+                t.print("The funds provided by the contract holder would allow the company to investigate, extract and perform testing on larger samples of the metal, leading towards large scale development and production of tools designed specifically for the contract holder."),
+                t.print("..."),
+                t.print("Bidding for this contract will be held at an event in Lamprey Technologies’ headquarters in Bournemouth, coinciding with the company’s fifth year of operation."),
+                t.print(" ..."),
+                t.print("Lamprey Technologies is a marine exploration and mining company, primarily focusing on mapping the Atlantic seafloor and using data acquired through intense scientific investigation to ethically and responsibly mine rare minerals and oil found under the ocean itself."),
+                t.print(" ..."),
+                t.print("Media Contact:"),
+                t.print("Michel Lyszyk"),
+                t.print("michellyszyk@lampreytech.co.uk"),
+                t.print("+44 7386496306"),
+                t.print("..."),
+                t.print("..."),
+                t.print("Please don’t hesitate to contact me with any concerns or queries."),
+                t.print("..."),
+                t.print("Kind regards,"),
+                t.print("..."),
+                t.print("Samantha Varden"),
+                t.print("Outreach Manager at Lamprey Technologies"),
+                t.print("(she/her)"),
+                t.print("samanthavarden@lampreytech.co.uk"),
+                t.print("+44 758385294"),
+                t.print("To: samanthavarden@lampreytech.co.uk"),
+                t.print("From: d.meyer@royalnavymail.mod.uk"),
+                t.print("Cc:"),
+                t.print("Subject: RE PITCH: Lamprey Technologies Seeking Contract Partner to Investigate Marine Phenomenon"),
+                t.print("..."),
+                t.print("Dear Ms Varden,"),
+                t.print("..."),
+                t.print("Having discussed the potential of the opportunity outlined in the press release with colleagues, we would like to arrange a telephone conference. Would you be available Tuesday at 10:00am?"),
+                t.print("..."),
+                t.print("Best wishes,"),
+                t.print("..."),
+                t.print("Commodore Daniel Meyer"),
+                t.print("To: d.meyer@royalnavymail.mod.uk"),
+                t.print("From: samanthavarden@lampreytech.co.uk"),
+                t.print("Cc:"),
+                t.print("Subject: RE PITCH: Lamprey Technologies Seeking Contract Partner to Investigate Marine Phenomenon"),
+                t.print("..."),
+                t.print("10am Tuesday works for me. My phone number is 0758385294"),
+                t.print("..."),
+                t.print("Kind regards,"),
+                t.print("..."),
+                t.print("Samantha Varden"),
+                t.print("Outreach Manager at Lamprey Technologies"),
+                t.print("(she/her)"),
+                t.print("samanthavarden@lampreytech.co.uk"),
+                t.print("+44 758385294"),
+                t.print("To: samanthavarden@lampreytech.co.uk"),
+                t.print(" From: d.meyer@royalnavymail.mod.uk"),
+                t.print("Cc: h.oscar@royalnavymail.mod.uk"),
+                t.print("Subject: RE PITCH: Lamprey Technologies Seeking Contract Partner to Investigate Marine Phenomenon"),
+                t.print("..."),
+                t.print("Dear Ms Varden,"),
+                t.print("..."),
+                t.print("Further to our conversation yesterday, the Royal Navy would like to formally accept the contract for exclusive use of Lamprey Technologies’ discovered metal for £4bn. As outlined in the meeting this would be subject to all employees aware of the military presence signing the official secrets act."),
+                t.print("..."),
+                t.print("Best wishes,"),
+                t.print("..."),
+                t.print("Commodore Daniel Meyer")}
             else
                 {t.print(`${password} is wrong!`)};
             break;
@@ -90,6 +176,60 @@ async function commandEntered(userInput) {
         t.print("While surfaced, the HMS Aspire can of course engage in traditional radio communication, however an antenna attached to a buoy which is released as the vessel dives allows this audio communication to persist to a depth of 50 metres."),
         t.print("Up to a depth of 200 metres, the underwater buoy can be kept at a shallow enough depth to allow the reception of Very Low Frequency (VLF) transmissions. This form of communication relies on text, and cannot carry audio information."),
         t.print("Below 200 metres, there is no method of communication with the surface available, and the Aspire should surface in the case of an emergency requiring communication with surface vessels.");
+        break;
+        case "lamprey":
+        let password = await t.waitInput("What's the password");
+        if (password === "brianson") {
+            t.print("To: yasminpatel@deepestbv.co.uk"),
+            t.print("From: samanthavarden@lampreytech.co.uk"),
+            t.print("Cc:"),
+            t.print("Subject: Evac Suit Preorder"),
+            t.print("..."),
+            t.print("Hi Yasmin,"),
+            t.print("..."),
+            t.print("Just wanted to chase up the submarine evacuation suit preorder we placed with your company in October. We haven’t had any correspondence since the new year and were led to believe that the suits would be ready for dispatch by the end of January. We have held off buying any replacements from other sources because of this, and need to know when to expect the suits to arrive so that our vessels can remain properly equipped. Should the delay continue we will be forced to source some from another company and cancel this order."),
+            t.print("..."),
+            t.print("Kind regards,"),
+            t.print("..."),
+            t.print("Samantha Varden"),
+            t.print("Outreach Manager at Lamprey Technologies"),
+            t.print("(she/her)"),
+            t.print("samanthavarden@lampreytech.co.uk"),
+            t.print("+44 758385294"),
+            t.print("To: yasminpatel@deepestbv.co.uk"),
+            t.print("From: samanthavarden@lampreytech.co.uk"),
+            t.print("Cc:"),
+            t.print("Subject: RE: Evac Suit Preorder"),
+            t.print("..."),
+            t.print("Hi Yasmin,"),
+            t.print("..."),
+            t.print("Please confirm that you are receiving these emails. We really need this info so we know how to proceed. We note that our accounts have been charged for the preorder but there has been no news on the product or its development."),
+            t.print("..."),
+            t.print("Regards,"),
+            t.print("..."),
+            t.print("Samantha Varden"),
+            t.print("Outreach Manager at Lamprey Technologies"),
+            t.print("(she/her)"),
+            t.print("samanthavarden@lampreytech.co.uk"),
+            t.print("+44 758385294"),
+            t.print("To: yasminpatel@deepestbv.co.uk"),
+            t.print("From: samanthavarden@lampreytech.co.uk"),
+            t.print("Cc:"),
+            t.print("Subject: RE: Evac Suit Preorder"),
+            t.print("..."),
+            t.print("Hi Yasmin,"),
+            t.print("..."),
+            t.print("My previous two emails and phone calls haven’t been answered. Please confirm that the production of the submarine evacuation suits is going ahead, and when we can expect delivery."),
+            t.print("..."),
+            t.print("Regards,"),
+            t.print("..."),
+            t.print("Samantha Varden"),
+            t.print("Outreach Manager at Lamprey Technologies"),
+            t.print("(she/her)"),
+            t.print("samanthavarden@lampreytech.co.uk"),
+            t.print("+44 758385294")}
+        else
+        {t.print(`${password} is wrong!`)};
         break;
         case "nel13":
         t.print("NEL-13 Operations Guide"),
@@ -122,7 +262,8 @@ async function commandEntered(userInput) {
         t.print("..."),
         t.print("You were contacted by Captain Alison Starkey of the Royal Navy. Due to your expertise,  it  is believed that you possess the proficiency to rescue crew and equipment that has become stranded at this location."),
         t.print("..."),
-        t.print("Your goal is to rescue the crew of the HMS Scylla and transport them to safety. ");
+        t.print("Your goal is to rescue the crew of the HMS Scylla and transport them to safety. "),
+        t.print("The crew you can find aboard are: John Simpkin, Catherine Aronson, Mohammed Amari, Christopher Harris and Divya Sampson");
         case "treadwell":
         t.print("New Partnership Seeks to Shake Up the World of Deep Sea Mining and Exploration"),
         t.print("Ellis T Coran"),
