@@ -30,7 +30,7 @@ async function main() {
 //Look here for more info: http://www.erikosterberg.com/terminaljs/
 
 
-    t.print("Welcome to the HMS Aspire. ")
+    t.print("Welcome to the HMS Aspire. "),
     t.print("Entries into this system are logged and monitored for auditing purposes");
 
     //In order to stop the program until the user responds, use await t.waitInput rather than t.input
