@@ -40,7 +40,7 @@ async function main() {
 
 
 
-    t.print("Please type ls to see a list of available files or press help for more information ");
+    t.print("Enter FILES to see a list of files or HELP for more information.");
 
 
 //By putting things in an "endless" loop, we can ensure things eventually go back to the "command" line if something
@@ -59,7 +59,7 @@ async function main() {
 async function commandEntered(userInput) {
     //This is a "switch statement", they are basically just faster if-else chains
     switch (userInput) {
-        case "ls":
+        case "FILES":
             t.print("Here are all the files!");
             t.print(files);
             break; //Always have a break at the end otherwise it will check all the other values in the case statment as well
@@ -429,7 +429,7 @@ async function commandEntered(userInput) {
         else
         {t.print(`${password2} is wrong!`)};
         break;
-        case "help":
+        case "HELP":
         t.print("Thank you for using the Information Termainal. Enter your file name as a command to access it. If it requires a password, ensure it is written in lower case."),
         t.print("If you need to access personal information, enter your name as a command e.g. joebloggs and your crew designation as a password");
         break;
