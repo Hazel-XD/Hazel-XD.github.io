@@ -65,7 +65,7 @@ async function commandEntered(userInput) {
             break; //Always have a break at the end otherwise it will check all the other values in the case statment as well
         case "emailcorrespondence":
             let password = await t.waitInput("What's the password");
-            if (password === "843carter962") {
+            if (password === "843delaney962") {
                 t.print("To: d.meyer@royalnavymail.mod.uk"),
                 t.print("From: samanthavarden@lampreytech.co.uk"),
                 t.print("Cc:"),
@@ -151,7 +151,9 @@ async function commandEntered(userInput) {
                 t.print("..."),
                 t.print("Best wishes,"),
                 t.print("..."),
-                t.print("Commodore Daniel Meyer")}
+                t.print("Commodore Daniel Meyer"),
+                t.print("... END EMAIL CORRESPONDENCE..."),
+                t.print("Please use FILENAME emails for further information")}
             else
                 {t.print(`${password} is wrong!`)};
             break;
@@ -179,7 +181,7 @@ async function commandEntered(userInput) {
         break;
         case "lamprey":
         let passwords = await t.waitInput("What's the password");
-        if (passwords === "brianson") {
+        if (passwords === "brianson122.5583") {
             t.print("To: yasminpatel@deepestbv.co.uk"),
             t.print("From: samanthavarden@lampreytech.co.uk"),
             t.print("Cc:"),
@@ -227,8 +229,7 @@ async function commandEntered(userInput) {
             t.print("Outreach Manager at Lamprey Technologies"),
             t.print("(she/her)"),
             t.print("samanthavarden@lampreytech.co.uk"),
-            t.print("+44 758385294"),
-            t.print("Please use command emails for further information")}
+            t.print("+44 758385294")}
         else
         {t.print(`${passwords} is wrong!`)};
         break;
@@ -245,15 +246,14 @@ async function commandEntered(userInput) {
         case "crewroster":
         t.print("The following personnel have been checked into the HMS Aspire."),
         t.print("..."),
-        t.print("Gregory Carter - Submarine Commander"), 
-        t.print("David Lightman - Computer Analyst"),
-        t.print("Sky Evans - Mechanical Engineer"),
-        t.print("Alexa Fitton - Scientific Diver"),
-        t.print("Liz  Hoydal - Deep Sea Forensic Specialist"),
-        t.print("Sasha Harris - Scientific Specialist"),
-        t.print("Cliff Weatherton - Rescue Diver"),
-        t.print("James Daniels - Rescue Specialist"),
-        t.print("Matthias Hoffman - Liason");
+        t.print("Eddie Macrae - Engineering Lead"),
+        t.print("Dr. Magnus Crozier - Geological Specialist"),
+        t.print("Hannah Farris - Radio Operations"),
+        t.print("Susan Oldham - Deep Sea Forensic Specialist"),
+        t.print("Dr. Victor Waldman - Marine Biologist"),
+        t.print("Naomi Macrae - Psychological Specialist"),
+        t.print("Bobbi Reed - Dive Specialist"),
+        t.print("Brooke Delaney - Corporate Liason");
         break;
         case "engineering":
         t.print("Engineering and Maintenance Guides Aboard the HMS Aspire"),
@@ -324,7 +324,8 @@ async function commandEntered(userInput) {
         t.print("In a worst case scenario, the crew should gather together in one room and focus on only supplying that location with oxygen. Any fires should be extinguished as quickly as possible to save air, and any power supplies should be focused on pumping seawater away from this location.");
         break;
         case "topsecret":
-        t.print("this file is encrypted. asldjf3oj2o;34jto4hi43htqit43qijth4;iq34uhq;akjshdfjawe;ht4qtuq4tuha;sdncqo4uhta;w4ohta;wo4thao;sdhgfa;4329438adouhfa;w4uht2948tya;suohfas");
+        t.print("this file is encrypted. asldjf3oj2o;34jto4hi43htqit43qijth4;iq34uhq;akjshdfjawe;ht4qtuq4tuha;sdncqo4uhta;w4ohta;wo4thao;sdhgfa;4329438adouhfa;w4uht2948tya;suohfas"),
+        t.print("Encryption keys can be found on your Royal Navy issued flash drive");
         break;
         case "geological":
         t.print("Report on North Atlantic Ocean anomaly site: 57°13'33.7'N 33°25'42.8'W')"),
@@ -434,7 +435,48 @@ async function commandEntered(userInput) {
         t.print("If you need to access personal information, enter your name as a command e.g. joebloggs and your crew designation as a password");
         break;
         case "emails":
-        t.print("fileencrypted a;sdlkfjao;djshwp9uohfaposujnf iaruhfapoufhasfjasdijfha");
+        let password3 = await t.waitInput("Please enter the password");
+        if (password3 === "843delaney962") {
+        t.print("To: matthiashoffman@lampreytech.co.uk"),
+        t.print("From: d.meyer@royalnavymail.mod.uk"),
+        t.print("Cc: f.bernard@royalnavymail.mod.uk"),
+        t.print("Subject: Asset Meeting Followup"),
+        t.print("..."),
+        t.print("Dear Mr Hoffman,"),
+        t.print("..."),
+        t.print("Further to Monday’s meeting I can confirm which vessels the Royal Navy would be able to offer to the mining project."),
+        t.print("..."),
+        t.print("I must stress that both submarines are due to be decommissioned due to safety concerns. Theoretically, with due care and maintenance they could be brought up to industry standard, but the benefits simply would not be worth the time and economic investment. Of course, we could not recommend using the vessels without these repairs."),
+        t.print("..."),
+        t.print("We would be willing to offer the purchase of the HMS Scylla and HMS Aspire. Both vessels are Trafalgar-class submarines built in the British Isles in 1988. They are equipped with one NEL-13 deep sea drone each.  As well as the obvious crew spaces and submarine operation rooms, the vessels contain large areas normally used to store torpedos, which could also be converted to other storage spaces and so on."),
+        t.print("..."),
+        t.print("In addition, we can offer one Echo-class survey ship, the HMS Peregrine, to be used as a communications hub for the two submarines and an excellent patrol and survey ship in her own right. As with the submarines, she is due for decommission but in much better condition overall."),
+        t.print("..."),
+        t.print("If you could reply as promptly as possible with a deposit, we will refrain from selling these vessels on to other interested parties or sending them to be scrapped."),
+        t.print("..."),
+        t.print("Best wishes,"),
+        t.print("..."),
+        t.print("Commodore Daniel Meyer"),
+        t.print("To: d.meyer@royalnavymail.mod.uk"),
+        t.print("From: matthiashoffman@lampreytech.co.uk"),
+        t.print("Cc: f.bernard@royalnavymail.mod.uk"),
+        t.print("Subject: RE: Asset Meeting Followup"),
+        t.print("..."),
+        t.print("Hello Commodore Meyer,"),
+        t.print("..."),
+        t.print("This all looks great!"),
+        t.print("..."),
+        t.print("The finance department has drawn up a contract available on our intranet. I won’t mention the password directly in case it constitutes a security issue, but I’ve set it to the surname of the paleontology conspiracy theorist we chatted about at the new years’ party followed by the standard submarine speed, magnetometer levels and pressure. If you have any issues accessing it, let me know."),
+        t.print("..."),
+        t.print("All the best,"),
+        t.print("..."),
+        t.print("Matthias Hoffman"),
+        t.print(" Deputy Assistant Executive at Lamprey Technologies"),
+        t.print("(He/Him)"),
+        t.print("matthiashoffman@lampreytech.co.uk"),
+        t.print("+44 7839563183")}
+        else
+        {t.print(`${password2} is wrong!`)};
         break;
         case "quit":
             t.print("Quit. Please reload terminal to continue");
