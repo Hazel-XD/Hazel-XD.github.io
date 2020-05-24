@@ -1,4 +1,4 @@
-let files = ["crewroster", "navigation", "nel13", "missionobjective", "emailcorrespondence", "emergency", "treadwell", "geological", "topsecret"];
+let files = ["crewroster", "navigation", "nel13", "missionobjective", "emailcorrespondence", "emergency", "lamprey", "geological", "topsecret"];
 let t; //Putting "t" out here makes it a global variable so its accessible everywhere
 
 //Ignore this, I made it to make it easier for you to make inputs tha actually wait for the user to respond
@@ -60,7 +60,7 @@ async function commandEntered(userInput) {
     //This is a "switch statement", they are basically just faster if-else chains
     switch (userInput) {
         case "FILES":
-            t.print("Here are all the files!");
+            t.print("Here is a list of currently available files. To view each file, type its name as a command");
             t.print(files);
             break; //Always have a break at the end otherwise it will check all the other values in the case statment as well
         case "emailcorrespondence":
