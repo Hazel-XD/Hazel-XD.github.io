@@ -253,6 +253,7 @@ async function commandEntered(userInput) {
         t.print("Dr. Victor Waldman - Marine Biologist"),
         t.print("Naomi Macrae - Psychological Specialist"),
         t.print("Bobbi Reed - Dive Specialist"),
+        t.print("Dr. Danni Cooper - Deep Sea Medical Specialist"),
         t.print("Brooke Delaney - Corporate Liason");
         break;
         case "engineering":
