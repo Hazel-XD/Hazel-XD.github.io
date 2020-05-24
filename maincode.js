@@ -181,7 +181,7 @@ async function commandEntered(userInput) {
         break;
         case "lamprey":
         let passwords = await t.waitInput("What's the password");
-        if (passwords === "brianson122.5583") {
+        if (passwords === "brianson152.5583") {
             t.print("To: yasminpatel@deepestbv.co.uk"),
             t.print("From: samanthavarden@lampreytech.co.uk"),
             t.print("Cc:"),
@@ -248,7 +248,7 @@ async function commandEntered(userInput) {
         t.print("..."),
         t.print("Eddie Macrae - Engineering Lead"),
         t.print("Dr. Magnus Crozier - Geological Specialist"),
-        t.print("Hannah Farris - Radio Operations"),
+        t.print("Henry Farris - Radio Operations"),
         t.print("Susan Oldham - Deep Sea Forensic Specialist"),
         t.print("Dr. Victor Waldman - Marine Biologist"),
         t.print("Naomi Macrae - Psychological Specialist"),
