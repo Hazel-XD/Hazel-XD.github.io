@@ -181,7 +181,7 @@ async function commandEntered(userInput) {
         break;
         case "lamprey":
         let passwords = await t.waitInput("What's the password");
-        if (passwords === "brianson152.5583") {
+        if (passwords === "ndownxckcposc") {
             t.print("To: yasminpatel@deepestbv.co.uk"),
             t.print("From: samanthavarden@lampreytech.co.uk"),
             t.print("Cc:"),
