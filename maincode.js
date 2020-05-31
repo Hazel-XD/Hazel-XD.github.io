@@ -65,7 +65,7 @@ async function commandEntered(userInput) {
             break; //Always have a break at the end otherwise it will check all the other values in the case statment as well
         case "emailcorrespondence":
             let password = await t.waitInput("What's the password");
-            if (password === "843delaney962") {
+            if (password === "843masters962") {
                 t.print("To: d.meyer@royalnavymail.mod.uk"),
                 t.print("From: samanthavarden@lampreytech.co.uk"),
                 t.print("Cc:"),
@@ -246,15 +246,15 @@ async function commandEntered(userInput) {
         case "crewroster":
         t.print("The following personnel have been checked into the HMS Aspire."),
         t.print("..."),
-        t.print("Eddie Macrae - Engineering Lead"),
-        t.print("Dr. Magnus Crozier - Geological Specialist"),
-        t.print("Henry Farris - Radio Operations"),
-        t.print("Susan Oldham - Deep Sea Forensic Specialist"),
-        t.print("Dr. Victor Waldman - Marine Biologist"),
-        t.print("Naomi Macrae - Psychological Specialist"),
-        t.print("Bobbi Reed - Dive Specialist"),
-        t.print("Dr. Danni Cooper - Deep Sea Medical Specialist"),
-        t.print("Brooke Delaney - Corporate Liason");
+        t.print("Piper Conroy - Engineering Lead"),
+        t.print("Charlotte Edwards - Pilot"),
+        t.print("Joseph Summer - Deep Sea Ecological Specialist"),
+        t.print("Nate Masters - Submarine Commander"),
+        t.print("Adrian Wall  - Sonar Operator"),
+        t.print("James Rook  - Drone Operator"),
+        t.print("Rory Lister - Dive Specialist"),
+        t.print("Dr. Tamsin Jones - Deep Sea Medical Specialist"),
+        t.print("Fabian Holt - Corporate Liason");
         break;
         case "engineering":
         t.print("Engineering and Maintenance Guides Aboard the HMS Aspire"),
@@ -295,7 +295,7 @@ async function commandEntered(userInput) {
         t.print("You were contacted by Captain Alison Starkey of the Royal Navy. Due to your expertise,  it  is believed that you possess the proficiency to rescue crew and equipment that has become stranded at this location."),
         t.print("..."),
         t.print("Your goal is to rescue the crew of the HMS Scylla and transport them to safety. "),
-        t.print("The crew you can find aboard are: John Simpkin, Catherine Aronson, Divya Macrae, Mohammed Amari, and Christopher Hariss");
+        t.print("The crew you can find aboard are: Lucy Simpkin, Catherine Aronson, Divya Macrae, Mohammed Amari, and Christopher Hariss");
         break;
         case "treadwell":
         t.print("New Partnership Seeks to Shake Up the World of Deep Sea Mining and Exploration"),
@@ -437,7 +437,7 @@ async function commandEntered(userInput) {
         break;
         case "emails":
         let password3 = await t.waitInput("Please enter the password");
-        if (password3 === "843delaney962") {
+        if (password3 === "843masters962") {
         t.print("To: matthiashoffman@lampreytech.co.uk"),
         t.print("From: d.meyer@royalnavymail.mod.uk"),
         t.print("Cc: f.bernard@royalnavymail.mod.uk"),
