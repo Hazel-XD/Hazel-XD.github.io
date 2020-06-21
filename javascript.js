@@ -8,7 +8,7 @@ let images = [
 'One of you employs the other. The employer is considering firing the employee; the employee is either inexplicably loyal or secretly disloyal',
 'Everyone expects the two of you  will get engaged soon. There is a problem with that.',
 'One of you is seen by the family as a war hero but in reality they deserted or committed another shameful deed. The other knows hat but is keeping silent so far',
-'One of you saved the other’s life or reputation. Now it is time to repay that debt'
+'One of you saved the other’s life or reputation. Now it is time to repay that debt',
 'One of you knows the others dirty secret and is intending to blackmail them',
 'One of you leads a dangerous lifestyle. The other is worried for them and will do anything to make them change their ways.',
 'You are having an illicit affair. One of you wants more than the other can give.',
