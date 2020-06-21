@@ -11,7 +11,7 @@ var randomNumber = Math.floor(Math.random() * (images.length));
 document.getElementById('imageDisplay').innerHTML = images[randomNumber];
 }
 
-let colors = [
+let color = [
 
 '4',
 '5',
