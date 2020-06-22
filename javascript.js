@@ -16,6 +16,7 @@ let images = [
 'One of you owes the other a large sum of money they cannot repay. The other is getting increasingly impatient.',
 'You are confidants, bound by a shared secret. Now your friendship is threatened.',
 'One of you posed nude for the  other. The resulting painting is a work of art and deserves recognition, but it would cause a scandal.',
+'The recent marriage between you is considered a scandalous mesalliance. The more affluent of you is trying to help the other fit in',
 'One of you did something that destroyed your reputation. The other is trying to redeem them'
 
 ]
@@ -34,9 +35,12 @@ let color = [
 'You are related to X, though they do not know this yet',
 'You are in deep trouble. You need to get X‘s help by any means necessary, otherwise your reputation will be destroyed',
 'You have returned from the war a changed person. You wonder how X will see you  now',
-'d',
-'d',
-'6'
+'You did  something  that, perhaps  inadvertently, hurt X. Now you are  guilt ridden and want to make it up to them in any way  possible',
+'You are an imposter, liar or artists of some sort. You  feel that you need to finally tell X the truth',
+'You are the reason  the Unexpected Guest isnt here. You feel you need to tell X about this',
+'You are infatuated with X but do not know whether they feel the same back',
+'You are in deep debt and almost broke. You wonder if X can help you in your circumstances',
+'You are considering bequeathing your fortune to  X and possibly disowning your  true heirs'
 
 ]
 
