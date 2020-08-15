@@ -1,4 +1,4 @@
-let files = ["reports", "reports2", "contracts", "science", "vesper"];
+let files = ["gitstashpop", "ghostinthemachine"];
 let t; //Putting "t" out here makes it a global variable so its accessible everywhere
 
 //Ignore this, I made it to make it easier for you to make inputs tha actually wait for the user to respond
@@ -19,7 +19,7 @@ async function main() {
     t = new Terminal("MainTerminal");
 
 //Now we can set up the size of the terminal, along with its colour and stuff
-    t.setBackgroundColor("green");
+    t.setBackgroundColor("blue");
     //t.setHeight("800px");
 
 
@@ -30,7 +30,7 @@ async function main() {
 //Look here for more info: http://www.erikosterberg.com/terminaljs/
 
 
-    t.print("This is CPD Terminal 9482 "),
+    t.print("This is the East Wing Terminal "),
     t.print("Entries into this system are logged and monitored for security purposes");
 
     //In order to stop the program until the user responds, use await t.waitInput rather than t.input
@@ -63,66 +63,43 @@ async function commandEntered(userInput) {
             t.print("Here is a list of currently available files. To view each file, type its name as a command");
             t.print(files);
             break; //Always have a break at the end otherwise it will check all the other values in the case statment as well
-        case "reports":
+        case "gitstashpop":
             let password = await t.waitInput("What's the password");
-            if (password === "carnivorous9482") {
-                t.print("Operation Dedicate:"),
-                t.print("Primary objective: Gather intel on the current state of Tenement 99 and await future updates."),
-                t.print("Additional objectives:),"),
-                t.print("Continue to provide CPD with intelligence from within the tenement at all times."),
-                t.print("Identify the size and demographic makeup of the squatter population within the tenement."),
-                t.print("Carry out rudimentary inspection of the building’s current state, including photographic evidence where possible."),
-                t.print("Prepare for the arrival of the detainees, and the subsequent demolition of the building."),
-                t.print("..."),    
-                    
-                t.print("Case Title: Operation Dedicate"),
-                t.print("Location: Tenement 99"),
-                t.print("Time/Date: 27/06/2040 13:00:00"),
-                t.print(" Reporting Officer: DC Morgan Bismuth (8295)"),
-                t.print("Narrative:"),
-                t.print("On the above date, I arrived at Tenement 99 in plain clothes. Upon arrival, I secured an empty cell in the outer ring to store potentially compromising equipment such as the issued computer terminal, radio receiver and firearm. On entering the inner ring, I was able to converse with locals with the agreed story and was provided with a cell in the inner ring from which to operate."),
-                t.print("The tenement is comprised of three main areas:"),
-                t.print("The outer circle: originally the medium security wing of the prison, now sparsely populated by squatters who seem mainly to be visitors to the tenement."),
-                t.print("The inner circle: originally the maximum security wing of the prison, now converted into improvised housing for the tenement’s residents and a wide variety of businesses including bars, brothels, dreamweaver dens, aug shops."),
-                t.print("The centre: a huge dancefloor with the observation tower converted into a DJ booth."),
-                t.print("Preliminary investigations reveal the structural integrity of the building to be poor, and exposed materials almost certainly constituting significant health hazard to the residents."),
-                    
-                t.print("..."),  
-                t.print("Case Title: Operation Dedicate"),
-                t.print("Location: Tenement 99"),
-                t.print("Time/Date: 04/07/2040 22:35:00"),
-                t.print("Reporting Officer: DC Morgan Bismuth (8295)"),
-                t.print("Narrative:"),
-                t.print("Conversations with residents reveal potential difficulties in evicting them from the property. They regard tenement 99 as some form of entertainment hub and rely on illegal tourism to fund their lifestyles without official employment."),
-                t.print("This results in an ungrateful, arrogant attitude and pride in the tenement identity. Residents are unlikely to voluntarily move to other accommodation. However, as evidenced above, illegal activity is rife, and therefore a large TRU operation could potentially clear the property with more ease than a political campaign or offer of official housing/employment.")
+            if (password === "brunswick") {
+                t.print("To: pitgashstop@t101mail.tmt"),
+                t.print("From: canyoutostopit@t101mail.tmt"),
+                t.print("Subject: Employment Offer"),
+                
+                t.print("Dear Ms pop,"),
+                t.print("I write to you on behalf of the Cantos Conglomerate to hire your DJ and MC services for a rather unusual party."),
+                
+                t.print("We at Cantos are aware of certain difficulties which have recently hampered your career and artistic expression. Of course, it pains us to see such talent wasted under circumstances caused by naught but bad luck, and so we wish to offer you the chance to upload your consciousness to our network, to be downloaded into a brand new body, free of the physical difficulties which you have been forced to contend with as of late."),
+                
+                t.print("In return, we simply ask that you create a stunning party - as you so often do - that will enrapture a collection of guests such that they do not attempt to leave the venue, and to maintain a positive atmosphere in the face of any and all circumstances."),
+                
+                t.print("If this offer interests you, I am currently staying within T101. Speak to the Syndicate lieutenant known as Lester, and they will know where to find me. I would be delighted to talk further about this opportunity and the benefits to both yourself and my corporation."),
+                
+                t.print("Yours faithfully,"),
+                
+                t.print("Tamira O’Corran"),
+                t.print("Asset Maintenance Specialist at Cantos Conglomerate")
+                
                     }
             else
-                {t.print(`${password} is wrong! Please use designated CPD password`)};
+                {t.print(`${password} is wrong! Password reminder - name of git stash pop's first pet.`)};
             break;
-        case "reports2":
+        case "ghostinthemachine":
         let passwords = await t.waitInput("What's the password");
         if (passwords === "carnivorous9482") {
-            t.print("To: m.d.bismuth@citypolicedepartment.gov.uk"),
-            t.print("From: i.f.Franklin@citypolicedepartment.gov.uk"),
-            t.print("Subject: Operation Dedicate Brief Update [URGENT] [CONFIDENTIAL]"),
+            t.print("00:11:57//2040/03/04//DrGray//T101Net"),
+            t.print("P2345at2454ient N responded w354345ell to initi5433al t345es54ts on the via534bility of upload. Seems unsuspecting of t354345he pur345pose52 of t5435est54ing25344."),
+            t.print("..."),
+            t.print("08:00:11//2040/03/02//DrGray//T101Net"),
+            t.print("F53ollo5345wing posi345tive test results, the decision was taken to continue with the upload. A copy of Patient N’s conscio43534usness was, see546564mingly succes4562sfully, uplo256456aded to a fl456456ash 465dri6ve. Pat4564ient app7345ears una345ware."),
+            t.print("..."),
+            t.print("21:36:02//2040/03/30//DrGray//T101Net"),
+            t.print("Patient N’s d5345eath at the ha5345nds of the Syndicate was unfortunate, but it now appears that the cons5345ciou534sness extr756act456ed ear856lier this month is therefore her leg435345acy. I intend to find a rel377ativ543673ely q435345uiet network to uploa3454353d it to, and allow it to li345v543e f5345re534e of the kn354owle347435dge of its true cre435345ation or nature. Th435is seems the mo345s34t hu345ma63ne op354ti435on.")
             
-            t.print(" DC Bismuth,"),
-            t.print("Please be advised that a Deploy driver will deliver six linked explosive charges to the tenement tomorrow afternoon. They will be in boxes marked as “Big Beats Big Beat Bar Beer n Beverages”. Install these charges in the agreed locations, making sure they are likely to remain hidden until detonation."),
-            t.print("..."),
-            t.print("Tonight, as many TRU cells as can be spared will be deployed T99. They have been briefed on your identity, but you are advised to take cover in case of violence from the residents. You will be radioed once the TRU commanding officer issues the all clear, and will be expected to remain in the tenement and to continue providing updates until further notice."),
-            t.print("If any individual without police or corp clearance is found within the tenement after the TRU operation, you are ordered to terminate them immediately, reporting any incidents at your earliest convenience."),
-            t.print("The detainees are scheduled to arrive from 15/08/2040 16:00. The tenement is scheduled for demolition at 15/08/2040 21:30."),
-            t.print("Your service is appreciated. You will be recognised for your efforts and achievements in this operation."),
-            t.print("..."),
-            t.print(" DCI Imelda Franklin"),
-            t.print("..."),
-            t.print("Case Title: Operation Dedicate"),
-            t.print("Location: Tenement 99"),
-            t.print("Time/Date: 06/08/2040 16:53:00"),
-            t.print("Reporting Officer: DC Morgan Bismuth (8295)"),
-            t.print("Narrative:"),
-            t.print("Daily check of placed charges reveals no sign of tampering or removal."),
-            t.print("Two individuals were observed entering the tenement through the outer circle. Neither were able to provide corporate or police clearance, and so both were exterminated. Closer inspection revealed them to be middle-aged men carrying no identification and small amounts of likely illegal New Pound.")
         }
             else
         {t.print(`${passwords} is wrong! Use standard CPD password.`)};

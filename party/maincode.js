@@ -19,7 +19,7 @@ async function main() {
     t = new Terminal("MainTerminal");
 
 //Now we can set up the size of the terminal, along with its colour and stuff
-    t.setBackgroundColor("green");
+    t.setBackgroundColor("purple");
     //t.setHeight("800px");
 
 
