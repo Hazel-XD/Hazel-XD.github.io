@@ -17,6 +17,10 @@ let images = [
 'You are confidants, bound by a shared secret. Now your friendship is threatened.',
 'One of you posed nude for the  other. The resulting painting is a work of art and deserves recognition, but it would cause a scandal.',
 'The recent marriage between you is considered a scandalous mesalliance. The more affluent of you is trying to help the other fit in',
+'You and X are business partners who have come to hate each other.',
+'Your entire relationship with X is based upon what started as a tiny lie but has grown to an enormous conspiracy. You are sick of it and want to confess the truth.',
+'You keep having dreams about each other. This either greatly disturbs or enthralls one or both of you.',
+'You are both rivals since childhood. Everything is a competition',
 'One of you did something that destroyed your reputation. The other is trying to redeem them'
 
 ]
@@ -39,7 +43,9 @@ let color = [
 'You are an imposter, liar or artists of some sort. You  feel that you need to finally tell X the truth',
 'You are the reason  the Unexpected Guest isnt here. You feel you need to tell X about this',
 'You are infatuated with X but do not know whether they feel the same back',
-'You are in deep debt and almost broke. You wonder if X can help you in your circumstances',
+'You are in deep debt and almost broke. You wonder if X can help you in your circumstances', 
+'You work for a foreign government',
+'You are working to undermine the aristocracy',
 'You are considering bequeathing your fortune to  X and possibly disowning your  true heirs'
 
 ]
