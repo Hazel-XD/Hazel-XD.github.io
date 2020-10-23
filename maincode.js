@@ -246,15 +246,15 @@ async function commandEntered(userInput) {
         case "crewroster":
         t.print("The following personnel have been checked into the HMS Aspire."),
         t.print("..."),
-        t.print("Piper Conroy - Engineering Lead"),
-        t.print("Charlotte Edwards - Pilot"),
-        t.print("Joseph Summer - Deep Sea Ecological Specialist"),
-        t.print("Nate Masters - Submarine Commander"),
-        t.print("Adrian Wall  - Sonar Operator"),
-        t.print("James Rook  - Drone Operator"),
-        t.print("Rory Lister - Dive Specialist"),
-        t.print("Dr. Tamsin Jones - Deep Sea Medical Specialist"),
-        t.print("Fabian Holt - Corporate Liason");
+        t.print("Amelia Hutchinson - Marine Biologist"),
+        t.print("Cynthia Price - Military Specialist"),
+        t.print("Henry Voss - Engineering Lead"),
+        t.print("Jason Kendrick - Geological Specialist"),
+        t.print("Maya Bates - Radio Operator"),
+        t.print("Morgan Bright - Drone Operator"),
+        t.print("Parker Lawson - Dive Specialist"),
+        t.print("Peter Ludlow - Corporate Liason"),
+        t.print("Trisha Sanders - Navigation Specialist");
         break;
         case "engineering":
         t.print("Engineering and Maintenance Guides Aboard the HMS Aspire"),
@@ -295,7 +295,7 @@ async function commandEntered(userInput) {
         t.print("You were contacted by Captain Alison Starkey of the Royal Navy. Due to your expertise,  it  is believed that you possess the proficiency to rescue crew and equipment that has become stranded at this location."),
         t.print("..."),
         t.print("Your goal is to rescue the crew of the HMS Scylla and transport them to safety. "),
-        t.print("The crew you can find aboard are: Lucy Simpkin, Catherine Aronson, Divya Macrae, Mohammed Amari, and Christopher Hariss");
+        t.print("The crew you can find aboard are: Lucy Simpkin, Taylor Newman, Divya Macrae, Mohammed Amari, and Christopher Hariss");
         break;
         case "treadwell":
         t.print("New Partnership Seeks to Shake Up the World of Deep Sea Mining and Exploration"),
@@ -484,4 +484,4 @@ async function commandEntered(userInput) {
             running = false;
             break;
     }
-};
+}; 
