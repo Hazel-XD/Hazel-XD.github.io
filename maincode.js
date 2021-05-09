@@ -1,4 +1,4 @@
-let files = ["crewroster", "navigation", "nel13", "emailcorrespondence", "emergency", "lamprey", "geological", "topsecret"];
+let files = [ "navigation", "nel13", "missionobjective", "emailcorrespondence", "emergency", "lamprey", "geological", "topsecret"];
 let t; //Putting "t" out here makes it a global variable so its accessible everywhere
 
 //Ignore this, I made it to make it easier for you to make inputs tha actually wait for the user to respond
@@ -181,7 +181,7 @@ async function commandEntered(userInput) {
         break;
         case "lamprey":
         let passwords = await t.waitInput("What's the password");
-        if (passwords === "ndownxckcposc") {
+        if (passwords === "brianson") {
             t.print("To: yasminpatel@deepestbv.co.uk"),
             t.print("From: samanthavarden@lampreytech.co.uk"),
             t.print("Cc:"),
@@ -244,9 +244,9 @@ async function commandEntered(userInput) {
         t.print("In general, when interaction with the environment outside the submarine is required, using NEL-13 is the safest and most efficient way to carry out almost all routine tasks.");
         break;
         case "crewroster":
-        t.print("The following personnel have been checked into the HMS Trinity."),
+        t.print("The following personnel were checked onto the HMS Aspire."),
         t.print("..."),
-        t.print("Amelia Hutchinson - Marine Biologist"),
+        t.print("Ashley Edwards - Marine Biologist"),
         t.print("Cynthia Price - Military Specialist"),
         t.print("Henry Voss - Engineering Lead"),
         t.print("Jason Kendrick - Geological Specialist"),
@@ -290,12 +290,9 @@ async function commandEntered(userInput) {
         t.print("COMMAND Replace Oxygen Cannister");
         break;
         case"missionobjective":
-        t.print("Seven days ago, a nearby ship received a distress signal from the HMS Scylla at 57°13'33.7'N 33°25'42.8'W. It is unclear as to their current state but estimates suggest that they only have sufficient oxygen canisters to last them another 12 hours."), 
+        t.print("Operation Tolerance: Project 962. Recover Data and Personnell abroad the HMS Aspire. "), 
         t.print("..."),
-        t.print("You were contacted by Captain Alison Starkey of the Royal Navy. Due to your expertise,  it  is believed that you possess the proficiency to rescue crew and equipment that has become stranded at this location."),
-        t.print("..."),
-        t.print("Your goal is to rescue the crew of the HMS Scylla and transport them to safety. "),
-        t.print("The crew you can find aboard are: Lucy Simpkin, Taylor Newman, Divya Macrae, Mohammed Amari, and Christopher Hariss");
+        t.print("The HMS Aspire is believed to have run aground with 9 crew members at the following coordinates: 60.514631 -37.722393.");
         break;
         case "treadwell":
         t.print("New Partnership Seeks to Shake Up the World of Deep Sea Mining and Exploration"),
@@ -433,7 +430,7 @@ async function commandEntered(userInput) {
         break;
         case "HELP":
         t.print("Thank you for using the Information Termainal. Enter your file name as a command to access it. If it requires a password, ensure it is written in lower case."),
-        t.print("If you need to access personal information, enter your name as a command e.g. joebloggs and your crew designation as a password");
+        t.print("If you need to access personal information on crew members, enter their name as a command e.g. joebloggs and your crew designation as a password. Crew files take 24 hours to be updated.");
         break;
         case "emails":
         let password3 = await t.waitInput("Please enter the password");
@@ -467,7 +464,7 @@ async function commandEntered(userInput) {
         t.print("..."),
         t.print("This all looks great!"),
         t.print("..."),
-        t.print("The finance department has drawn up a contract available on our intranet. I won’t mention the password directly in case it constitutes a security issue, but I’ve set it to the surname of the paleontology conspiracy theorist we chatted about at the new years’ party followed by the standard submarine speed, magnetometer levels and pressure. If you have any issues accessing it, let me know."),
+        t.print("The finance department has drawn up a contract available on our intranet. I won’t mention the password directly in case it constitutes a security issue, but I’ve set it to the surname of the paleontology conspiracy theorist we chatted about at the new years’ party. If you have any issues accessing it, let me know."),
         t.print("..."),
         t.print("All the best,"),
         t.print("..."),
