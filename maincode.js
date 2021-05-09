@@ -177,7 +177,8 @@ async function commandEntered(userInput) {
         t.print("Radio Communication"),
         t.print("While surfaced, the HMS Trinity can of course engage in traditional radio communication, however an antenna attached to a buoy which is released as the vessel dives allows this audio communication to persist to a depth of 50 metres."),
         t.print("Up to a depth of 200 metres, the underwater buoy can be kept at a shallow enough depth to allow the reception of Very Low Frequency (VLF) transmissions. This form of communication relies on text, and cannot carry audio information."),
-        t.print("Below 200 metres, there is no method of communication with the surface available, and the Trinity should surface in the case of an emergency requiring communication with surface vessels.");
+        t.print("Below 200 metres, there is no method of communication with the surface available, and the Trinity should surface in the case of an emergency requiring communication with surface vessels."),
+        t.print("for further information on radio, use filenmae radio within this terminal");
         break;
         case "lamprey":
         let passwords = await t.waitInput("What's the password");
