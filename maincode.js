@@ -256,6 +256,11 @@ async function commandEntered(userInput) {
         t.print("Peter Ludlow - Corporate Liason"),
         t.print("Trisha Sanders - Navigation Specialist");
         break;
+        case "radio":
+        t.print("Radio Commands aboard the trinity should be made through communications within the workshop."),
+        t.print("To communicate via text, please first signal who you are trying to communicate with with the key phrase Come In X"),
+        t.print("To access old radio files, enter the crew designation of the crew member who logged the files as the frequency on the radio operations desk.");
+        break;
         case "engineering":
         t.print("Engineering and Maintenance Guides Aboard the HMS Trinity"),
         t.print("..."),
