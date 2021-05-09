@@ -1,4 +1,4 @@
-let files = ["crewroster", "navigation", "nel13", "missionobjective", "emailcorrespondence", "emergency", "lamprey", "geological", "topsecret"];
+let files = ["crewroster", "navigation", "nel13", "emailcorrespondence", "emergency", "lamprey", "geological", "topsecret"];
 let t; //Putting "t" out here makes it a global variable so its accessible everywhere
 
 //Ignore this, I made it to make it easier for you to make inputs tha actually wait for the user to respond
@@ -30,13 +30,13 @@ async function main() {
 //Look here for more info: http://www.erikosterberg.com/terminaljs/
 
 
-    t.print("Welcome to the HMS Aspire. "),
+    t.print("Welcome to the HMS Trinity. "),
     t.print("Entries into this system are logged and monitored for auditing purposes");
 
     //In order to stop the program until the user responds, use await t.waitInput rather than t.input
     //If you dont use await, the program may crash :)
     let name = await t.waitInput("Please enter your full name. ");
-    t.print(`Welcome to the ship ${name}. The HMS Aspire is a Trafalgar Class Submarine serial number 324854993.`);
+    t.print(`Welcome to the ship ${name}. The HMS Trinity is a Trafalgar Class Submarine serial number 324854993.`);
 
 
 
@@ -60,12 +60,12 @@ async function commandEntered(userInput) {
     //This is a "switch statement", they are basically just faster if-else chains
     switch (userInput) {
         case "FILES":
-            t.print("Here is a list of currently available files. To view each file, type its name as a command");
+            t.print("Here is a list of currently available files. To view each file, type its name as a command within this terminal");
             t.print(files);
             break; //Always have a break at the end otherwise it will check all the other values in the case statment as well
         case "emailcorrespondence":
             let password = await t.waitInput("What's the password");
-            if (password === "843masters962") {
+            if (password === "843hawkins962") {
                 t.print("To: d.meyer@royalnavymail.mod.uk"),
                 t.print("From: samanthavarden@lampreytech.co.uk"),
                 t.print("Cc:"),
@@ -158,11 +158,11 @@ async function commandEntered(userInput) {
                 {t.print(`${password} is wrong!`)};
             break;
         case "navigation":
-        t.print("Navigation and NEL-13 Operations Guide for the HMS Aspire"),
+        t.print("Navigation and NEL-13 Operations Guide for the HMS Trinity"),
         t.print("Navigation Operations");
         t.print("All navigation commands can be inputted from the Main Control Panel located within the Navigation Room."),
-        t.print("Submarine navigation underwater requires skills and technologies not needed by surface ships. The challenges of underwater navigation have become more important as submarines spend more time underwater, travelling greater distances and at higher speed. Military submarines, such as HMS Aspire, travel underwater in an environment of total darkness with neither windows nor lights."), 
-        t.print("The Aspire can use its active sonar systems to ping ahead for underwater hazards such as undersea mountains, drilling rigs or other submarines."),
+        t.print("Submarine navigation underwater requires skills and technologies not needed by surface ships. The challenges of underwater navigation have become more important as submarines spend more time underwater, travelling greater distances and at higher speed. Military submarines, such as HMS Trinity, travel underwater in an environment of total darkness with neither windows nor lights."), 
+        t.print("The Trinity can use its active sonar systems to ping ahead for underwater hazards such as undersea mountains, drilling rigs or other submarines."),
         t.print("At depths below periscope depth the submarine can determine its position using:"),
         t.print("Dead reckoning course information obtained from the ship's gyrocompass, measured speed and estimates of local ocean currents, this could also be considered an estimated position as long as the ocean current is computed in."),
         t.print("Inertial navigation system is an estimated position source, utilizing acceleration, deceleration, and pitch and roll for computing."),
@@ -175,9 +175,9 @@ async function commandEntered(userInput) {
         t.print("COMMAND Descend 500 metres NAVIGATION ROOM PILOT"),
         t.print("COMMAND Turn 180 degrees NAVIGATION ROOM HELMSMAN"),
         t.print("Radio Communication"),
-        t.print("While surfaced, the HMS Aspire can of course engage in traditional radio communication, however an antenna attached to a buoy which is released as the vessel dives allows this audio communication to persist to a depth of 50 metres."),
+        t.print("While surfaced, the HMS Trinity can of course engage in traditional radio communication, however an antenna attached to a buoy which is released as the vessel dives allows this audio communication to persist to a depth of 50 metres."),
         t.print("Up to a depth of 200 metres, the underwater buoy can be kept at a shallow enough depth to allow the reception of Very Low Frequency (VLF) transmissions. This form of communication relies on text, and cannot carry audio information."),
-        t.print("Below 200 metres, there is no method of communication with the surface available, and the Aspire should surface in the case of an emergency requiring communication with surface vessels.");
+        t.print("Below 200 metres, there is no method of communication with the surface available, and the Trinity should surface in the case of an emergency requiring communication with surface vessels.");
         break;
         case "lamprey":
         let passwords = await t.waitInput("What's the password");
@@ -235,16 +235,16 @@ async function commandEntered(userInput) {
         break;
         case "nel13":
         t.print("NEL-13 Operations Guide"),
-        t.print("The HMS Aspire carries onboard a Nautical Evaluation Liason Device class 13 (NEL-13). This is a submersible drone which can be deployed to investigate the environment outside the submarine, take samples and carry out basic mechanical tasks such as external hull repairs."),
+        t.print("The HMS Trinity carries onboard a Nautical Evaluation Liason Device class 13 (NEL-13). This is a submersible drone which can be deployed to investigate the environment outside the submarine, take samples and carry out basic mechanical tasks such as external hull repairs."),
         t.print("NEL-13 can be deployed and controlled using the Navigation Room Control Panel in a similar way to piloting the submarine itself. For example:"),
         t.print("COMMAND Move NEL-13 towards underwater vent NAVIGATION ROOM ROBOTICS"),
-        t.print("COMMAND Replace Aspire’s communications antenna using NEL-13 NAVIGATION ROOM PILOT"),
+        t.print("COMMAND Replace Trinity communications antenna using NEL-13 NAVIGATION ROOM PILOT"),
         t.print("QUERY What data can NEL-13 gather about the immediate surroundings? OCEANOGRAPHY"),
         t.print("QUERY What type of fish can NEL-13 see? MARINE BIOLOGY"),
         t.print("In general, when interaction with the environment outside the submarine is required, using NEL-13 is the safest and most efficient way to carry out almost all routine tasks.");
         break;
         case "crewroster":
-        t.print("The following personnel have been checked into the HMS Aspire."),
+        t.print("The following personnel have been checked into the HMS Trinity."),
         t.print("..."),
         t.print("Amelia Hutchinson - Marine Biologist"),
         t.print("Cynthia Price - Military Specialist"),
@@ -257,7 +257,7 @@ async function commandEntered(userInput) {
         t.print("Trisha Sanders - Navigation Specialist");
         break;
         case "engineering":
-        t.print("Engineering and Maintenance Guides Aboard the HMS Aspire"),
+        t.print("Engineering and Maintenance Guides Aboard the HMS Trinity"),
         t.print("..."),
         t.print("Engineering Operations"),
         t.print("All engineering commands can be inputted from the Main Control Panel located within the Engineering Room."),
@@ -266,9 +266,9 @@ async function commandEntered(userInput) {
         t.print("..."),
         t.print("In order for a submarine to submerge hydrostatically, it must have negative buoyancy. To control their displacement and the depth at which the submarine submerges, it has ballast tanks which have a combination of air and water. More water in the ballast tanks, the deeper it is able to go. The Main Ballast Tanks (MBTs) are completely filled in order to submerge whereas the Depth Control Ballast Tanks (DCBTs) control how deep a submarine is within the water. "),
         t.print("..."),
-        t.print("A titanium  sub such a s the HMS Aspire is designed to withhold pressures up to 1,500 psi. "),
+        t.print("A titanium  sub such a s the HMS Trinity is designed to withhold pressures up to 1,500 psi. "),
         t.print("..."),
-        t.print("In addition to standard operation, the HMS Aspire has the following instruments"),
+        t.print("In addition to standard operation, the HMS Trinity has the following instruments"),
         t.print("Nuclear Propulsion Systems"),
         t.print("A magnetic anomaly detector. "),
         t.print("Combination fo Active and Passive SONARs"),
@@ -437,7 +437,7 @@ async function commandEntered(userInput) {
         break;
         case "emails":
         let password3 = await t.waitInput("Please enter the password");
-        if (password3 === "843masters962") {
+        if (password3 === "843hawkins962") {
         t.print("To: matthiashoffman@lampreytech.co.uk"),
         t.print("From: d.meyer@royalnavymail.mod.uk"),
         t.print("Cc: f.bernard@royalnavymail.mod.uk"),
