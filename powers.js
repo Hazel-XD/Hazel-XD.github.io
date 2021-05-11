@@ -67,7 +67,7 @@ let images = [
 'Composers: Pro- You can see music and the notes it’s made of, and write it down.  Con- You don’t have rhythm and can’t play any musical instrument.',
 'Plants: Pro- You can turn into 1 specific plant. Since you are a plant, you don’t have sight or hearing, but can just sense things. Con- You have to choose the plant. The longer you are a plant, the harder it is to turn back. If you stay a plant for longer than an hour, you will stay a plant.',
 'Animals: Pro- You can turn into 1 specific animal. Since you are an animal, you have the senses that the animal has. Con- You have to choose the animal. The longer you stay an animal, the harder it is to turn back. If you will stay an animal for longer than an hour, you will stay an animal. ',
-'Iron skins: Pro- Your skin (outside) is invulnerable. Con- It’s only the outer layer of skin. So a knife can’t do damage, but a blunt object will still hurt anything underneath. And anything medical will cause apProblem.","
+'Iron skins: Pro- Your skin (outside) is invulnerable. Con- It’s only the outer layer of skin. So a knife can’t do damage, but a blunt object will still hurt anything underneath. And anything medical will cause a problem.',
 'Empaths: Pro- You can sense emotions. Con- You also feel the emotions, 3 times over what the other person feels.',
 'Mentalists Pro- You can sense motive. Con- When you try to sense another person’s motive, they can also sense your motive.',
 'Gliders: Pro- You can descend from altitude at controlled speeds. Con- You do this by stretching out flying squirrel-like membranes between your arms and legs, which are ungainly with normal clothes.',
