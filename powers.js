@@ -104,5 +104,5 @@ let images = [
 
 function newImage() {
 var randomNumber = Math.floor(Math.random() * (images.length));
-document.getElementById('imageDisplay').innerHTML = images[randomNumber] + images[randomNumber] + images[randomNumber];
+document.getElementById('imageDisplay').innerHTML = images[randomNumber];
 }
