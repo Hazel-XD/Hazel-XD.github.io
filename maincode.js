@@ -1,4 +1,4 @@
-let files = [ "navigation", "nel13", "missionobjective", "emailcorrespondence", "emergency", "lamprey", "geological", "topsecret"];
+let files = [  "missionobjective", "emailcorrespondence", "lamprey", "geological",];
 let t; //Putting "t" out here makes it a global variable so its accessible everywhere
 
 //Ignore this, I made it to make it easier for you to make inputs tha actually wait for the user to respond
