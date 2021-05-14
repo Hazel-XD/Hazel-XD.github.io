@@ -1,4 +1,4 @@
-let files = [  "missionobjective", "emailcorrespondence", "lamprey", "geological",];
+let files = [  "missionobjective", "emails", "lamprey", "geological",];
 let t; //Putting "t" out here makes it a global variable so its accessible everywhere
 
 //Ignore this, I made it to make it easier for you to make inputs tha actually wait for the user to respond
@@ -64,7 +64,7 @@ async function commandEntered(userInput) {
             t.print(files);
             break; //Always have a break at the end otherwise it will check all the other values in the case statment as well
         case "emailcorrespondence":
-            let password = await t.waitInput("What's the password");
+            let password = await t.waitInput("Enter password");
             if (password === "843hawkins962") {
                 t.print("To: d.meyer@royalnavymail.mod.uk"),
                 t.print("From: samanthavarden@lampreytech.co.uk"),
@@ -181,7 +181,7 @@ async function commandEntered(userInput) {
         t.print("for further information on radio, use filenmae radio within this terminal");
         break;
         case "lamprey":
-        let passwords = await t.waitInput("What's the password");
+        let passwords = await t.waitInput("Enter password");
         if (passwords === "brianson") {
             t.print("To: yasminpatel@deepestbv.co.uk"),
             t.print("From: samanthavarden@lampreytech.co.uk"),
@@ -452,7 +452,7 @@ async function commandEntered(userInput) {
         t.print("..."),
         t.print("I must stress that both submarines are due to be decommissioned due to safety concerns. Theoretically, with due care and maintenance they could be brought up to industry standard, but the benefits simply would not be worth the time and economic investment. Of course, we could not recommend using the vessels without these repairs."),
         t.print("..."),
-        t.print("We would be willing to offer the purchase of the HMS Scylla and HMS Aspire. Both vessels are Trafalgar-class submarines built in the British Isles in 1988. They are equipped with one NEL-13 deep sea drone each.  As well as the obvious crew spaces and submarine operation rooms, the vessels contain large areas normally used to store torpedos, which could also be converted to other storage spaces and so on."),
+        t.print("We would be willing to offer the purchase of the HMS Trinity and HMS Aspire. Both vessels are Trafalgar-class submarines built in the British Isles in 1988. They are equipped with one NEL-13 deep sea drone each.  As well as the obvious crew spaces and submarine operation rooms, the vessels contain large areas normally used to store torpedos, which could also be converted to other storage spaces and so on."),
         t.print("..."),
         t.print("In addition, we can offer one Echo-class survey ship, the HMS Peregrine, to be used as a communications hub for the two submarines and an excellent patrol and survey ship in her own right. As with the submarines, she is due for decommission but in much better condition overall."),
         t.print("..."),
