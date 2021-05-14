@@ -1,4 +1,4 @@
-let files = [  "missionobjective", "emails", "lamprey", "geological",];
+let files = [  "missionobjective", "emails", "radio", "geological",];
 let t; //Putting "t" out here makes it a global variable so its accessible everywhere
 
 //Ignore this, I made it to make it easier for you to make inputs tha actually wait for the user to respond
@@ -260,7 +260,10 @@ async function commandEntered(userInput) {
         case "radio":
         t.print("Radio Commands aboard the trinity should be made through communications within the workshop."),
         t.print("To communicate via text, please first signal who you are trying to communicate with with the key phrase Come In X"),
-        t.print("To access old radio files, enter the crew designation of the crew member who logged the files as the frequency on the radio operations desk.");
+        t.print("While surfaced, the HMS Trinity can of course engage in traditional radio communication, however an antenna attached to a buoy which is released as the vessel dives allows this audio communication to persist to a depth of 50 metres."),
+        t.print("Up to a depth of 200 metres, the underwater buoy can be kept at a shallow enough depth to allow the reception of Very Low Frequency (VLF) transmissions. This form of communication relies on text, and cannot carry audio information."),
+        t.print("Below 200 metres, there is no method of communication with the surface available, and the Trinity should surface in the case of an emergency requiring communication with surface vessels."),
+        t.print("Previous radio communications may be accessed via radio operations desk. ");
         break;
         case "engineering":
         t.print("Engineering and Maintenance Guides Aboard the HMS Trinity"),
