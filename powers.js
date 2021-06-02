@@ -36,7 +36,6 @@ let images = [
 'Sparkers: Pro- You can create a spark, enough to set kindling alight, by clicking your fingers. Con- This happens if you click your fingers for any reasons, even if you don’t intend it.',
 'Climbers: Pro- You are an excellent climber and are able to climb everything as long as there is a space where you can grab a hold with the tip of your fingers. Con- Your hands and feet are so adjusted to climbing that you have trouble running or holding small items like needles.', 
 'Steelhairers: Pro- Your hair is as strong as steel and can be used as steel, to make wires or other things Con- You can’t cut your hair with any normal scissors, and trying to pull one from your head hurts a lot.',
-'Poopglue-ers: Pro- Your poop can be used as super strong glue, glueing almost everything it touches, except your skin. Con- It needs to be spread evenly to do so, it still smells like poop and since it glues everything together except your skin, your skin is the only thing that can be used to spread it on surfaces.',
 'Chameleoners: Pro- You can blend in your surrounding. Other than the cloakers, you’re not invisible but you become like your surroundings. Con- You have to stand still to do it and your eyes are still visible when they are open. So you’re only completely invisible when your eyes are closed.',
 'Fireballers: Pro- You can Produce sparks from your fingertips and throw them up to a couple of meters. You can choose the colour of the sparks. Con- If you want to actually start a fire, you still need a fuel source ',
 'Lie detectors: Pro- You are a human lie detector. You can sense any lie being told to you. Con- You have no idea what the lie is, just that someone is not telling the truth. And you can’t turn it off.',
@@ -103,6 +102,6 @@ let images = [
 ]
 
 function newImage() {
-var randomNumber = Math.floor(Math.random() * (images.length));
-document.getElementById('imageDisplay').innerHTML = images[randomNumber];
-}
+    var randomNumber = Math.floor(Math.random() * (images.length));
+    document.getElementById('imageDisplay').innerHTML = images[randomNumber];
+    }
