@@ -1,5 +1,4 @@
-let images = [
- 
+let images = [ 
 'You had a fight with [character]. Who was it? What happened?',
 'You committed a crime. What did you do? Who was involved?',
 'You have developed a crush on [character]. Who is it? Do they know? Will you act on it?',
